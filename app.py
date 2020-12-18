@@ -7,8 +7,8 @@ if os.path.exists("env.py"):
 app = Flask(__name__)
 
 
-@app.route("/") 
- # a test function, proof of flask
+@app.route("/")
+# a test function, proof of flask
 def hello():
     return "Hello World ...again!"
 
